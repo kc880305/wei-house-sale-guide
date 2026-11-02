@@ -10,3 +10,6 @@
 .feedback-topic-card .feedback-shots figure,
 .feedback-topic-card .feedback-shots img{height:auto;max-height:none}
 .feedback-topic-card .feedback-shots img{width:100%;object-fit:contain}
+/* Remove decorative frame around feedback screenshots */
+.feedback-topic-card .feedback-shots figure{padding:0;background:transparent}
+.feedback-topic-card .feedback-shots img{background:transparent}

@@ -1,4 +1,26 @@
 document.addEventListener("DOMContentLoaded", () => {
+  const menuButton = document.querySelector(".menu-button");
+  const menuPanel = document.querySelector(".menu-panel");
+
+  const closeMenu = () => {
+    if (!menuButton || !menuPanel) return;
+    menuPanel.hidden = true;
+    menuButton.setAttribute("aria-expanded", "false");
+  };
+
+  menuButton?.addEventListener("click", () => {
+    if (!menuPanel) return;
+    const willOpen = menuPanel.hidden;
+    menuPanel.hidden = !willOpen;
+    menuButton.setAttribute("aria-expanded", String(willOpen));
+  });
+
+  menuPanel?.querySelectorAll("a").forEach((link) => link.addEventListener("click", closeMenu));
+  document.addEventListener("click", (event) => {
+    if (!menuPanel || menuPanel.hidden || !menuButton) return;
+    if (!menuPanel.contains(event.target) && !menuButton.contains(event.target)) closeMenu();
+  });
+
   const carousel = document.querySelector("[data-case-carousel]");
   const dots = [...document.querySelectorAll(".carousel-dots i")];
 

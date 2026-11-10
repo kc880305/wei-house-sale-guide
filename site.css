@@ -86,3 +86,42 @@
   .contact-copy>.cta{display:none!important}
   #steps .section-head h2{font-size:24px;white-space:nowrap;letter-spacing:-.035em}
 }
+
+/* 2026-11-10 final mobile flow and CTA placement */
+.home-actions>p{font-size:18px;color:#111;margin:0 0 30px}
+
+@media(min-width:901px){
+  .owner-hero .hero-cta,.owner-hero .portrait-proof{height:58px;min-height:58px;box-sizing:border-box}
+}
+
+@media(max-width:580px){
+  .home-stage{gap:20px;padding:24px 0 38px}
+  .home-copy{display:contents}
+  .home-heading{order:1;width:100%;text-align:center}
+  .home-heading .eyebrow{margin-top:0}
+  .home-heading h1{margin:16px 0 2px}
+  .home-person{order:2;margin:0 auto}
+  .home-actions{order:3;width:100%;text-align:center;padding-bottom:10px}
+  .home-actions>p{font-size:15px;line-height:1.65;margin:0 0 18px}
+  .home-intro-card{margin-top:-165px}
+
+  .sticky-nav .nav-cta{display:inline-flex}
+  .hero-cta,.cta-panel .cta,.buyer-hero .cta,.mini-cta,.contact-copy>.cta{display:inline-flex!important}
+  .center-cta{display:block!important}
+  .mobile-sticky{display:none!important}
+  body.has-sticky{padding-bottom:0}
+
+  .owner-hero .hero-grid{display:flex;flex-direction:column;gap:22px}
+  .owner-hero .hero-portrait{order:1;width:100%;max-width:360px;margin:0 auto;padding-bottom:0}
+  .owner-hero .hero-copy{order:2;text-align:center}
+  .owner-hero .hero-copy .hero-cta{margin-top:20px}
+
+  .contact-section{background:#f0f6f3;padding-top:60px;padding-bottom:60px}
+  .contact-grid{display:block}
+  .contact-copy{text-align:center;padding:0 4px}
+  .contact-copy p{font-size:15px;line-height:1.8}
+  .contact-copy>.cta{margin-top:4px}
+  .contact-card{display:block;margin-top:38px;padding:20px;text-align:center;border-radius:28px}
+  .contact-card img{width:100%;max-width:320px;margin:0 auto 20px;border-radius:22px}
+  .social-links{justify-content:center}
+}

@@ -82,5 +82,7 @@
 }
 
 @media(max-width:580px){
-  .home-intro-card{margin-top:-96px}.portrait-proof-row{margin-top:-72px}.portrait-proof{min-height:58px;padding:7px 4px}.portrait-proof b{font-size:18px}.portrait-proof .hot-number{font-size:19px}.portrait-proof small{font-size:9px}
+  .home-intro-card{margin-top:-165px}.portrait-proof-row{margin-top:-210px}.portrait-proof{min-height:58px;padding:7px 4px}.portrait-proof b{font-size:18px}.portrait-proof .hot-number{font-size:19px}.portrait-proof small{font-size:9px}
+  .contact-copy>.cta{display:none!important}
+  #steps .section-head h2{font-size:24px;white-space:nowrap;letter-spacing:-.035em}
 }

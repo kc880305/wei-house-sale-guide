@@ -185,7 +185,7 @@ h1,h2,h3,p{margin-top:0}
   .record-card p strong{font-size:28px}.section-action{padding:23px 17px}.section-action p{font-size:15px;line-height:1.7}
   .packaging-heading h2{font-size:clamp(25px,7.3vw,30px)}.packaging-heading h2 span{white-space:nowrap}.before-after{grid-template-columns:1fr;gap:16px}.before-after figcaption b{font-size:17px}
   .strategy-cta{padding:48px 20px}.strategy-cta h2{font-size:30px}
-  .contact-section{padding-top:58px}.contact-copy{text-align:center}.contact-copy h2{font-size:38px}.contact-subtitle{font-size:21px}.contact-detail{font-size:15px}.contact-card{padding:18px}.contact-card h3{font-size:31px}
+  .contact-section{padding-top:58px}.contact-copy{text-align:center}.contact-copy h2{font-size:38px}.contact-copy h2 span{display:block}.contact-subtitle{font-size:21px}.contact-detail{font-size:15px}.contact-card{padding:18px}.contact-card h3{font-size:31px}
 
   .site-footer,.simple-footer{padding:25px 20px;flex-direction:column;text-align:center}.social-actions{display:grid;grid-template-columns:1fr;width:100%}.social-actions a{width:100%}
   .line-float{right:16px;bottom:16px;width:58px;height:58px;min-height:58px;padding:0;justify-content:center}.line-float b{display:none}.chat-icon{width:27px;height:23px}

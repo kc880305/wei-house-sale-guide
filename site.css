@@ -149,7 +149,7 @@ h1,h2,h3,p{margin-top:0}
 
 .line-float{position:fixed;right:24px;bottom:24px;z-index:45;display:flex;align-items:center;gap:9px;min-height:54px;padding:11px 17px;border-radius:999px;background:#06c755;color:#fff;font-size:14px;font-weight:900;box-shadow:0 14px 34px rgba(4,98,45,.27);transition:.2s}
 .line-float:hover{transform:translateY(-3px);box-shadow:0 18px 40px rgba(4,98,45,.35)}
-.chat-icon{position:relative;width:25px;height:21px;border:2px solid #fff;border-radius:50%;font-size:0}.chat-icon:after{content:"";position:absolute;left:1px;bottom:-4px;width:7px;height:7px;border-left:2px solid #fff;transform:rotate(-28deg)}
+.line-float svg{width:25px;height:25px;flex:0 0 auto}
 
 .lightbox[hidden]{display:none}.lightbox{position:fixed;inset:0;z-index:100;display:grid;grid-template-rows:1fr auto;place-items:center;padding:55px 20px 24px;background:rgba(7,27,24,.92)}
 .lightbox img{max-width:min(1100px,94vw);max-height:82vh;border-radius:16px}.lightbox p{color:#fff}.lightbox-close{position:absolute;top:16px;right:20px;width:44px;height:44px;border:1px solid rgba(255,255,255,.4);border-radius:50%;background:rgba(255,255,255,.13);color:#fff;font-size:28px;cursor:pointer}.lightbox-open{overflow:hidden}
@@ -193,7 +193,7 @@ h1,h2,h3,p{margin-top:0}
   .contact-section{padding-top:58px}.contact-copy{text-align:center}.contact-copy h2{font-size:38px}.contact-copy h2 span{display:block}.contact-subtitle{font-size:21px}.contact-detail{font-size:15px}.contact-card{padding:18px}.contact-card h3{font-size:31px}
 
   .site-footer,.simple-footer{padding:25px 20px;flex-direction:column;text-align:center}.social-actions{display:grid;grid-template-columns:1fr;width:100%}.social-actions a{width:100%}
-  .line-float{right:16px;bottom:16px;width:58px;height:58px;min-height:58px;padding:0;justify-content:center}.line-float b{display:none}.chat-icon{width:27px;height:23px}
+  .line-float{right:16px;bottom:16px;width:58px;height:58px;min-height:58px;padding:0;justify-content:center}.line-float b{display:none}.line-float svg{width:27px;height:27px}
 
   .buyer-intro{padding:53px 20px 24px}.buyer-intro h1{font-size:39px}.buyer-journey{padding:25px 20px 58px}.buyer-journey .section-heading h2{font-size:27px}.buyer-step{padding:24px 18px;border-radius:22px}.step-copy h3{font-size:23px}#step-two .step-copy p,#step-three .step-copy p{white-space:nowrap}.visual-step{display:block}.visual-step>div:last-child{margin-top:22px}.phone-shot{max-width:350px}.selector-shot{padding:11px}.buyer-bottom{padding:55px 20px}.buyer-bottom h2{font-size:33px}
 }
